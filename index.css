@@ -1,6 +1,6 @@
 .slide-in-left {
     font-size: 60px;
-    color: navy
+    color: navy;
 }
 
 .slide-in-left {
@@ -25,7 +25,7 @@
 	-webkit-animation: slide-in-left 14s linear infinite forwards;
 	        animation: slide-in-left 14s linear infinite forwards;
             font-size: 60px;
-            color: navy
+            color: navy;
 }
 
   @-webkit-keyframes rolo {
@@ -57,3 +57,23 @@
     }
   }
    */
+
+   .weezee {
+	-webkit-animation: slide-in-left 12s ease-in-out infinite forwards;
+	        animation: slide-in-left 12s ease-in-out infinite forwards;
+            font-size: 60px;
+            color: navy;
+}
+
+ @-webkit-keyframes weezee {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+      opacity: 1;
+    }
+  }
