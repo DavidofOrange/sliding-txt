@@ -59,10 +59,12 @@
    */
 
    .weezee {
-	-webkit-animation: slide-in-left 12s ease-in-out infinite forwards;
-	        animation: slide-in-left 12s ease-in-out infinite forwards;
+	-webkit-animation: slide-in-left 10s ease-in-out infinite forwards;
+	        animation: slide-in-left 10s ease-in-out infinite forwards;
             font-size: 60px;
             color: navy;
+            display: flex;
+            justify-content: space-between;
 }
 
  @-webkit-keyframes weezee {
@@ -77,3 +79,59 @@
       opacity: 1;
     }
   }
+
+  .two-txt {
+    color:rgb(148, 5, 33);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 89px;
+  }
+
+  
+  .txt1 {
+    -webkit-animation: txt1 4s linear infinite forwards;
+    animation: txt1 4s linear infinite forwards;
+       
+  }
+  
+    @-webkit-keyframes txt1 {
+      0% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: translateX(80%);
+                transform: translateX(80%);
+        opacity: 1.5;
+      }
+    }
+
+    .txt2 {
+      -webkit-animation: txt2 3s linear infinite forwards;
+      animation: txt2 3s linear infinite forwards;
+      margin-top: -60px;
+         
+    }
+    
+      @-webkit-keyframes txt2 {
+        10% {
+          -webkit-transform: translateX(10%);
+                  transform: translateX(10%);
+          opacity: 1;
+        }
+        60% {
+          -webkit-transform: translateX(60%);
+                  transform: translateX(60%);
+          opacity: 1.5;
+        }
+      } 
+
+      .banner {
+        width: 1000px;
+        height: 1000px;
+        background-color: cadetblue;
+        border: 5px solid brown;
+        overflow: hidden;
+        margin: 0 auto;
+      }
